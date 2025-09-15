@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .card{
+      background-color: hsl(0, 0%, 12%);
+      box-shadow: 5px 5px 0 hsl(0, 0%, 20%);
+      transition: 0.3s;
+      width: auto;
+      border-radius: 1.28rem;
+      height: auto;
+      max-width: 400px;
+      max-height: max-content;
+    }
+    .card:hover{
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      transform: translateY(-5px);
+    }
+    img{
+      width: auto;
+      height: auto;
+      margin: 2rem 8rem 0.5rem 8.5rem;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      max-height: 110px;
+      max-width: 110px;
+
+    }
+    img:hover{
+      cursor: pointer;
+    }
+    .top-container{
+      margin: 2.2rem 0 2rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .btn-secondary{
+      background-color: hsl(0, 0%, 20%);
+      border-color: hsl(0, 0%, 20%);
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      width: 75%;
+      margin-left: 3rem;
+    }
+    .last-link{
+      margin-bottom: 2rem;
+    }
+    .btn-secondary:hover{
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      transform: translateY(-5px);
+    }
+    h3{
+      margin: 1.2rem 0 0 5.5rem; 
+      color: white;
+    }
+    h5{
+      color: hsl(75, 94%, 57%);
+      margin: 0.4rem 0 0.5rem 6.3rem;
+    }
+    p{
+      color: white;
+      margin: 1rem 4rem 2rem 4rem;
+      font-size: 0.9rem; 
+      color: rgba(255, 255, 255, 0.7);
+    }
+  </style>
+</head>
+<body style="background-color: hsl(0, 0%, 8%);">
+
+  <div class="top-container">
+    <div class="card">
+      <img src="./assets/images/My pic.jpg" alt="avatar">
+      <h3>Amrou Bekhedda</h3>
+      <h5>Tamanrasset, Algeria</h5>
+      <p>"Frontend developer, and junior security researcher."</p>
+      <a class="btn btn-secondary" href="https://github.com/Amoru-Bek" role="button">Github</a>
+      <a class="btn btn-secondary" href="https://www.frontendmentor.io/profile/Amoru-Bek" role="button">Frontend Mentor</a>
+      <a class="btn btn-secondary" href="https://www.linkedin.com/in/amrou-bekhedda-99b314341/" role="button">LinkedIn</a>
+      <a class="btn btn-secondary" href="#" role="button">X</a>
+      <a class="btn btn-secondary last-link" href="#" role="button">Instagram</a>
+
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Amoru-Bek">Amrou Bekhedda</a>.
+  </div>
+</body>
+</html>
