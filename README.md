@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/Amoru-Bek/social-links)
-- Live Site URL: [live site URL](https://amoru-bek.github.io/social-links-pj/)
+- Live Site URL: [live site URL](https://amoru-bek.github.io/social-links/)
 
 ## My process
 
